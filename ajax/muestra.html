@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  
+  $("#show").click(function(){
+    $("p").show();
+  });
+  
+    $("#aa").click(function(){
+    $("a").hide();
+  });
+  
+  $("#aa").click(function(){
+    $("a").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<a id="aa">Sabia que ibas a decir que si</a>
+
+<p>Sabia que ibas a decir que si</p>
+
+
+<button id="hide">No</button>
+<button id="show">Si</button>
+
+</body>
+</html>
