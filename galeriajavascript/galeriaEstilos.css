@@ -1,0 +1,32 @@
+body{
+	background-color: aqua;
+
+}
+#galeria{
+border: 1px solid #EAEAEA;
+border-radius: 25PX;
+padding-bottom: 0;
+background: #0099CC;
+width: 1000PX; 
+margin: auto;
+}
+#imhMostrar{
+
+	border: 1px solid #F2F2F2;
+	border-radius: 25PX;
+	width: 1000PX; 
+	height: 500PX;
+}
+#galeria_miniatura{
+	display: table;
+	margin: 0px auto;
+}
+.miniatura{
+width:  63px;
+height: 63px;
+border-radius: 10px;
+float: left;
+cursor: pointer;
+padding: 5px;
+margin: 10px 5px auto;
+}

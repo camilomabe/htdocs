@@ -1,0 +1,38 @@
+#abuelo{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    background: transparent;
+    top: 0px;
+    overflow: auto;
+}
+#menu{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: transparent;   
+}
+#contec{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    float: left;
+    background: transparent;
+}
+#menu li:hover{
+    color: green;
+    font-weight: bold;
+    cursor: pointer;    
+}
+p.uppercase, h2, h3, h1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30;
+}
+
+.body { 
+    background-image: url('galaxia1.jpg'); 
+}

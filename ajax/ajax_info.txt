@@ -1,0 +1,31 @@
+
+      <div class="header">
+         <h1>Cuestionario ISTQB Fundamental</h1>
+      </div>
+      <div class="row">
+
+<div class="col-3 menu">
+<h2>Palabras clave</h2>
+</div>
+<div class="col-6">
+   <h2>
+      <strong class="pregunta" >
+        
+    <li><ul> Manifiesto Ágil.</ul>
+	<li> Desarrollo Ágil de software.
+	<li> Modelo de desarrollo incremental.
+	<li> Modelo de desarrollo.
+	<li> Iterativo.
+	<li> Ciclo de vida del software.
+	<li> Automatización de pruebas.
+	<li> Base de pruebas.
+	<li> Desarrollo guiado.
+	<li> Por pruebas.
+	<li> Oráculo de pruebas.
+	<li> Historia de usuario.
+     
+     </strong>
+
+   </h2>
+   <hr>
+</div>

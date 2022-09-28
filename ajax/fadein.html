@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+	$("#div4").fadeIn();
+    $("#div5").fadeIn("slow");
+    $("#div6").fadeIn(3000);
+	$("#div7").fadeIn();
+    $("#div8").fadeIn("slow");
+    $("#div9").fadeIn(3000);
+	$("#div10").fadeIn();
+    $("#div11").fadeIn("slow");
+    $("#div12").fadeIn(3000);
+	$("#div13").fadeIn();
+    $("#div14").fadeIn("slow");
+    $("#div15").fadeIn(3000);
+	$("#div16").fadeIn();
+    $("#div17").fadeIn("slow");
+    $("#div18").fadeIn(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div01").fadeOut();
+    $("#div02").fadeOut("slow");
+    $("#div03").fadeOut(3000);
+  });
+});
+
+</script>
+<style>
+.div1{
+width:80px;
+left:80px;
+display:none;
+background-color:yellow;
+}
+
+</style>
+</head>
+<body>
+
+<p>Demonstrate fadeIn() with different parameters.</p>
+<button>Click to fade out boxes</button><br><br>
+
+<div id="div01" style="width:80px; height:80px;background-color:yellow;></div><br>
+<div id="div02" style="width:80px; height:80px;background-color:blue;"></div><br>
+<div id="div03" style="width:80px; height:80px;background-color:red;"></div>
+
+<div id="div1" class="div1"></div><br>
+<div id="div2" style="width:80px;center:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<div id="div4" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div5" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div6" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<div id="div7" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div8" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div9" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<div id="div10" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div11" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div12" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<div id="div13" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div14" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div15" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<div id="div16" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div17" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div18" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+</body>
+</html>
